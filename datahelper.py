@@ -20,7 +20,7 @@ llm_claude_haiku = ChatOpenAI(
 )
 selected_llm = llm_gpt
 
-# summerize data
+# summarize data
 
 
 def summerize_csv(filename):
