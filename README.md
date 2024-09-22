@@ -28,7 +28,7 @@
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/csv-llm-analyzer.git
-    cd csv-llm-analyzer
+    cd data_analyzer_app_with_llm_agents
     ```
 
 2. Install the required packages:
