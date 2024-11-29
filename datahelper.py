@@ -18,7 +18,7 @@ llm_claude_haiku = ChatOpenAI(
     model_name="claude-3-haiku-20240307",
     temperature=0,
 )
-selected_llm = llm_gpt
+selected_llm = llm_gemini
 
 # summarize data
 
