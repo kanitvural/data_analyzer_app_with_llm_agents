@@ -27,15 +27,21 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/csv-llm-analyzer.git
+    git clone https://github.com/kanitvural/data_analyzer_app_with_llm_agents.git
     cd data_analyzer_app_with_llm_agents
+    python -m venv venv
+    - Windows: venv\Scripts\activate
+    - Linux: source venv/bin/activate
+    - Mac: source venv/bin/activate
     ```
 
 2. Install the required packages:
     ```bash
-    python -m venv venv
-    venv\scripts\activate
     pip install -r requirements.txt
+    ```
+
+3. Run app:
+    ```bash
     streamlit run app.py
     ```
 
