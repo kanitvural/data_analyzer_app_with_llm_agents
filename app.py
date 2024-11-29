@@ -11,7 +11,7 @@ def activate_dataload():
 
 
 st.set_page_config(page_title="Data Analyzer 🤖", layout="wide")
-st.image("./image/banner2.png", use_column_width=True)
+st.image("./image/banner2.png", use_container_width=True)
 st.title("Data Analyzer: 🤖 Data analyzer with llm")
 st.divider()
 
